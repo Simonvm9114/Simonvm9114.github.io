@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Werkervaring | Simon van Meegdenburg</title>
+		<meta name="description" content="HTML5">
+        <meta name="author" content="Simon van Meegdenburg">
+        <link rel = "stylesheet" href = "css/dropdown.css">
+        <link rel = "stylesheet" href = "css/main.css">
+        <link rel = "shortcut icon" href="images/paperplane.png">
+        <script src="js/dropdown.js"></script>
+        <script src="https://kit.fontawesome.com/772f796bfb.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+        <aside>
+
+            <p><img id="simon" src="images/simon.jpg" alt="Picture of myself"></p>
+            
+            <div class = "social-media">
+                <a href = "https://www.linkedin.com/in/simon-v-13833a131/?originalSubdomain=nl"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href = "https://www.youtube.com/channel/UCDePXa6pFYUt0-UG1QczIyg/featured?view_as=subscriber"><i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+
+            <p class = "subject">Personalia:</p>
+
+            <table class="table-personalia">
+                <tr><th class="personalia-header">Name: </th>         <td class="personalia-data">Simon van Meegdenburg</td> </tr>
+                <tr><th class="personalia-header">DoB: </th>          <td class="personalia-data">01-04-1992</td> </tr>
+                <tr><th class="personalia-header">Residence: </th>    <td class="personalia-data">Hengelo, the Netherlands</td> </tr>
+                <tr><th class="personalia-header">Nationality: </th>  <td class="personalia-data">Dutch</td> </tr>
+                <tr><th class="personalia-header">Email: </th>        <td class="personalia-data">simonvm@live.nl</td> </tr>
+            </table>
+
+            <p class = "subject">Core values:</p>
+            <p class = "tags">Wisdom, Balance, Authenticity, Energy, Inspiration</p>
+
+            <p class = "subject">General skills:</p>
+            <p class = "tags">Socially skilled, Eagar to learn, Curious, Quickly adapt to changes, Logic and Analytics</p>
+            
+            <p class = "subject">Hobbies:</p>
+            <p class = "tags">Personal growth, Learning, Programming, Data, Formula 1, Randomness, Spending time with my partner and friends</p>
+
+            <p class = "subject">Interests:</p>
+            <p class = "tags">Artificial intelligence, Machine learning, Game development, Data Science, Creating, retrieving and combining data</p>
+
+            <p class = "subject">(Programming) languages:</p>
+            <p class = "tags">Dutch, English, Qlik, Python, R, SQL, Rest API's, HTML, CSS</p>
+
+        </aside>
+        
+        <header>
+            <br>
+        </header>
+        
+        <nav>
+            <a class="link" href = "index.html"> Home </a>
+            <a class="link" href = 'work-experience.html'>Work experience</a>
+            <a class="link" href = 'knowledge.html'>Knowledge</a>
+            <a class="dropdown" href="#">
+                <button onClick="triggerDropdown()" class="dropbtn">Content</button>
+            </a>
+        </nav>
+
+        <div id="myDropdown" class="dropdown-content">
+            
+            <a href="blog-carreerswitch.html">Career Switch</a>
+            <a href="youtube-dataninjanl/1pilot.html">Simon on Youtube</a>
+            <a href="project-loffline/1pilot.html">Project Loffline</a>
+            <a href="100-days-without/1pilot.html">100 Days Without Alcohol</a>
+        </div>
+
+        <section>
+            <h1>Work experience</h1>
+
+            <p>
+                On this page you can find my relevant work experience. You will notice that I have made a special twist during my career. If you want to know more about this <a class = 'link-in-article' href="blog-carreerswitch.html">career switch<i class="fas fa-external-link-alt fa-xs"></i></a>, please follow the link.
+            </p>
+            <br>
+            <table>
+                <tr>
+                    <td colspan = "2" class = "table-title">Climber Benelux</td>
+                </tr>
+                <tr>
+                    <td class = "table-experience-left">Business Intelligence Consultant</td> <td rowspan = "3" class = "table-experience-right">Nowadays, tons of Gigabytes of data are collected within companies. However, the data itself is of no use without being properly modeled and visualized. You need Climber for that task. They create 'Intelligent business' with e.g. interactive dashboards and automated reports.</td>
+                </tr>
+                <tr>
+                    <td class = "table-experience-left">From Apr. 2018 (ongoing)</td>
+                </tr>
+                <tr>
+                    <td class = "table-experience-left" title="Go to website"><a class = 'link-in-article' href = 'https://www.climber.nl/'><i class="fas fa-external-link-alt"></i> Climber Benelux</a></td>
+                </tr>
+            </table>
+            <div class = "table-space"></div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan = "2" class = "table-title">SMD E-H - Wijkteams Enschede</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class = "table-experience-left">Wijkcoach C (Social worker)</td> <td rowspan = "3" class = "table-experience-right">If you have to deal with for example relationship problems or stress, then in the city of Enschede you can go to social teams to find support. Often a few conversations are enough to get citizens going again. If, however, it turns out that more support is needed, the coach will know what's the best place to go for the citizen.</td>
+                    </tr>
+                    <tr>
+                        <td class = "table-experience-left">Jan. 2017 - Aug. 2018</td>
+                    </tr>
+                    <tr>
+                        <td class = "table-experience-left" title="Go to website"><a class = 'link-in-article' href = 'https://wijkteamsenschede.nl/'><i class="fas fa-external-link-alt"></i> Wijkteams Enschede  </a>  </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class = "table-space"></div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan = "2" class = "table-title">JP van den Bent Stichting – locatie Het Eulderink</td>
+                    </tr>
+                </thead>
+                <tbody>                    
+                    <tr>
+                        <td class = "table-experience-left">Assistant counselor</td> <td rowspan = "3" class = "table-experience-right">Het Eulderink is a location where people with mental disabilities or psychiatric problems are admitted during a crisis period or as a bridge to a new place of residence. Residents here receive guidance in completing daily recurring tasks.</td>
+                    </tr>
+                    <tr>
+                        <td class = "table-experience-left">Jul. 2015 - Sept. 2016</td>
+                    </tr>
+                    <tr>
+                        <td class = "table-experience-left" title="Go to website"><a class = 'link-in-article' href = 'https://www.jpvandenbent.nl/locaties/kortverblijfhuis-het-eulderink/'><i class="fas fa-external-link-alt"></i> Het Eulderink</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class = "table-space"></div>
+
+        </section>
+    </body>
+
+</html>

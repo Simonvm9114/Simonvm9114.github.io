@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Home | Simon van Meegdenburg</title>
+		<meta name="description" content="HTML5">
+        <meta name="author" content="Simon van Meegdenburg">
+        <link rel = "stylesheet" href = "css/dropdown.css">
+        <link rel = "stylesheet" href = "css/main.css">
+        <link rel = "shortcut icon" href="images/paperplane.png">
+        <script src="js/dropdown.js"></script>
+        <script src="https://kit.fontawesome.com/772f796bfb.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+        <aside>
+
+            <p><img id="simon" src="images/simon.jpg" alt="Picture of myself"></p>
+            
+            <div class = "social-media">
+                <a href = "https://www.linkedin.com/in/simon-v-13833a131/?originalSubdomain=nl"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href = "https://www.youtube.com/channel/UCDePXa6pFYUt0-UG1QczIyg/featured?view_as=subscriber"><i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+
+            <p class = "subject">Personalia:</p>
+
+            <table class="table-personalia">
+                <tr><th class="personalia-header">Name: </th>         <td class="personalia-data">Simon van Meegdenburg</td> </tr>
+                <tr><th class="personalia-header">DoB: </th>          <td class="personalia-data">01-04-1992</td> </tr>
+                <tr><th class="personalia-header">Residence: </th>    <td class="personalia-data">Hengelo, the Netherlands</td> </tr>
+                <tr><th class="personalia-header">Nationality: </th>  <td class="personalia-data">Dutch</td> </tr>
+                <tr><th class="personalia-header">Email: </th>        <td class="personalia-data">simonvm@live.nl</td> </tr>
+            </table>
+
+            <p class = "subject">Core values:</p>
+            <p class = "tags">Wisdom, Balance, Authenticity, Energy, Inspiration</p>
+
+            <p class = "subject">General skills:</p>
+            <p class = "tags">Socially skilled, Eagar to learn, Curious, Quickly adapt to changes, Logic and Analytics</p>
+            
+            <p class = "subject">Hobbies:</p>
+            <p class = "tags">Personal growth, Learning, Programming, Data, Formula 1, Randomness, Spending time with my partner and friends</p>
+
+            <p class = "subject">Interests:</p>
+            <p class = "tags">Artificial intelligence, Machine learning, Game development, Data Science, Creating, retrieving and combining data</p>
+
+            <p class = "subject">(Programming) languages:</p>
+            <p class = "tags">Dutch, English, Qlik, Python, R, SQL, Rest API's, HTML, CSS</p>
+
+        </aside>
+        
+        <header>
+            <br>
+        </header>   
+        
+        <nav>
+            <a class="link" href = "index.html"> Home </a>
+            <a class="link" href = 'work-experience.html'>Work experience</a>
+            <a class="link" href = 'knowledge.html'>Knowledge</a>
+            <a class="dropdown" href="#">
+                <button onClick="triggerDropdown()" class="dropbtn">Content</button>
+            </a>
+        </nav>
+
+        <div id="myDropdown" class="dropdown-content">
+            
+            <a href="blog-carreerswitch.html">Career Switch</a>
+            <a href="youtube-dataninjanl/1pilot.html">Simon on Youtube</a>
+            <a href="project-loffline/1pilot.html">Project Loffline</a>
+            <a href="100-days-without/1pilot.html">100 Days Without Alcohol</a>
+        </div>
+
+        <section>
+            <h1>About me - Simon van Meegdenburg</h1>
+
+            <p>My name is Simon van Meegdenburg and I'm a data passionate. Ever since I was a kid, I've been crazy about figures, statistics and analyzing stuff. 
+                I remember as the day of yesterday that my mother made an excelsheet for me so that I could keep track of the standings of the Formula 1 World Championship. 
+                I could stare at it for hours and fantasize about how my favorite driver would have to perform in order to win the championship. </p>
+
+            <p>We are a few years ahead in time and instead of the excelsheet I now stare at the Formula 1 app on my phone. That fantasizing has remained the same. 
+                So it's no wonder that besides data passionate I can now also call myself a data professional. A field and a hobby for which I get up every day with a little dance. 
+                I like to spend my time learning new programming tricks or watching clips about the latest trends in the world of data.</p>
+
+            <p>The creation of this website is another thing I did because I enjoy creating things with computers. I also find it a great way to show more of myself to the outside world. 
+                This website contains everything I think you should know about me. You can read about my working experience and the knowledge I gained through different studies, books and courses.
+                Also you can read about my <a class = 'link-in-article' href="blog-carreerswitch.html">career switch<i class="fas fa-external-link-alt fa-xs"></i></a> in my latest blogpost. Additionally there are some good old blogpost I wrote a couple of years ago. Those were originally written in my native language and are now translated to English.
+                You can find all of this under the 'content' button on the top-right of this page. Last but not least I'm working on a collection of Youtube video's. You can watch the latest one down below.</p>
+            
+            <br><br>
+
+            <h2>Retrieving F1 weather data</h2>
+            <h6>My Youtube debut</h6>
+
+            <div class='video-container'>
+                <iframe width="100%" height='100%' src="https://www.youtube.com/embed/ZlF8s9ouNJs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        
+        </section>
+
+    </body>
+
+</html>
