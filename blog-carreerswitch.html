@@ -1,101 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Career switch | Simon van Meegdenburg</title>
-		<meta name="description" content="HTML5">
-        <meta name="author" content="Simon van Meegdenburg">
-        <link rel = "stylesheet" href = "css/dropdown.css">
-        <link rel = "stylesheet" href = "css/main.css">
-        <link rel = "shortcut icon" href="images/paperplane.png">
-        <script src="js/dropdown.js"></script>
-        <script src="https://kit.fontawesome.com/772f796bfb.js" crossorigin="anonymous"></script>
-	</head>
 
-	<body>
-        <aside>
+<head>
+    <meta charset="utf-8">
+    <title>Career switch | Simon van Meegdenburg</title>
+    <meta name="description" content="HTML5">
+    <meta name="author" content="Simon van Meegdenburg">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/paperplane.png">
+    <script src="js/dropdown.js"></script>
+    <script src="https://kit.fontawesome.com/772f796bfb.js" crossorigin="anonymous"></script>
+</head>
 
-            <p><img id="simon" src="images/simon.jpg" alt="Picture of myself"></p>
-            
-            <div class = "social-media">
-                <a href = "https://www.linkedin.com/in/simon-v-13833a131/?originalSubdomain=nl"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href = "https://www.youtube.com/channel/UCDePXa6pFYUt0-UG1QczIyg/featured?view_as=subscriber"><i class="fab fa-youtube fa-2x"></i></a>
-            </div>
+<body>
+    <aside>
 
-            <p class = "subject">Personalia:</p>
+        <p><img id="simon" src="images/simon.jpg" alt="Picture of myself"></p>
 
-            <table class="table-personalia">
-                <tr><th class="personalia-header">Name: </th>         <td class="personalia-data">Simon van Meegdenburg</td> </tr>
-                <tr><th class="personalia-header">DoB: </th>          <td class="personalia-data">01-04-1992</td> </tr>
-                <tr><th class="personalia-header">Residence: </th>    <td class="personalia-data">Hengelo, the Netherlands</td> </tr>
-                <tr><th class="personalia-header">Nationality: </th>  <td class="personalia-data">Dutch</td> </tr>
-                <tr><th class="personalia-header">Email: </th>        <td class="personalia-data">simonvm@live.nl</td> </tr>
-            </table>
-
-            <p class = "subject">Core values:</p>
-            <p class = "tags">Wisdom, Balance, Authenticity, Energy, Inspiration</p>
-
-            <p class = "subject">General skills:</p>
-            <p class = "tags">Socially skilled, Eagar to learn, Curious, Quickly adapt to changes, Logic and Analytics</p>
-            
-            <p class = "subject">Hobbies:</p>
-            <p class = "tags">Personal growth, Learning, Programming, Data, Formula 1, Randomness, Spending time with my partner and friends</p>
-
-            <p class = "subject">Interests:</p>
-            <p class = "tags">Artificial intelligence, Machine learning, Game development, Data Science, Creating, retrieving and combining data</p>
-
-            <p class = "subject">(Programming) languages:</p>
-            <p class = "tags">Dutch, English, Qlik, Python, R, SQL, Rest API's, HTML, CSS</p>
-
-        </aside>
-        
-        <header>
-            <br>
-        </header>
-        
-        <nav>
-            <a class="link" href = "index.html"> Home </a>
-            <a class="link" href = 'work-experience.html'>Work experience</a>
-            <a class="link" href = 'knowledge.html'>Knowledge</a>
-            <a class="dropdown" href="#">
-                <button onClick="triggerDropdown()" class="dropbtn">Content</button>
-            </a>
-        </nav>
-
-        <div id="myDropdown" class="dropdown-content">
-            
-            <a href="blog-carreerswitch.html">Career Switch</a>
-            <a href="youtube-dataninjanl/1pilot.html">Simon on Youtube</a>
-            <a href="project-loffline/1pilot.html">Project Loffline</a>
-            <a href="100-days-without/1pilot.html">100 Days Without Alcohol</a>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/simon-v-13833a131/?originalSubdomain=nl"><i
+                    class="fab fa-linkedin fa-2x"></i></a>
         </div>
 
-        <div class="blog-navigation">
-            <span class="blog-prevnext-disabled">Previous &gt;&gt;</span>
-            <span class="blog-date">25-10-2019</span> 
-            <span class="blog-prevnext-disabled">Next &gt;&gt;</span>
-        </div>
+        <p class="quote">"Working with computers is like art, your only limit is your imagination"</p>
 
-        <section>
-            <h1>Career switch</h1>
-            <h6>The story of a social worker becoming a data professional</h6>
+        <p class="subject">Personalia:</p>
 
-            <p>Hi there! My name is Simon van Meegdenburg and I love to play with data. It doesn’t really matter to me what kind of programming language I need to learn, if I think of something that I can program, I’ll just go for it. I love writing scripts to bring some of my idea’s to life. It wasn’t until September 2017 though, that I discovered the possibilities of programming. Up until then I didn’t use my computer for much more than the average person that has one at home. All my live I've been fascinated by digits, statistics and analysing. As a little boy I already analysed the standings of the Formula One World Championship to figure out how my favourite driver should perform in order to win the title. Also I played this racing game where I had over 100 cars to choose from. I didn’t really care about mastering the game, more so I was interested in what car performed the best when controlled by the computer. Since not all cars could compete in one race, I decided to keep track of the results of multiple races with different participating AI’s in an excel sheet. I tried to keep as many variables in consideration, best lap times, best times over multiple laps, consistency over multiple races. I continuously figured out more advanced ways to analyse this and I didn’t hesitate to just start over completely from the beginning when I found a better way. I could literally do this for hours, even days.</p>
-            <p class = "blog-quote-right">As a little boy I already analysed the standings of the Formula One</p>
-            <p>Despite this fascination for analysing stuff, it never really occurred to me to get a career in this area. I actually never knew that programming with data was even a profession. When I heard about this in the middle of 2017, I immediately realised that I should know more about this. I started searching on google and it didn’t take long to find my first courses in R and Python. I immediately fell in love with programming. In September of 2017 I made a life changing decision: I’ll become a data professional!</p>
-            <p>When you know my background before that moment, you’ll realize that this was to become quite a drastic step. Up until that moment I was a social worker. I came across people with addictions to drugs and alcohol, people with financial problems and people that experience problems raising their children. There’s no need for a lot of knowledge about computers and programming in order to carry out that profession. You can pretty much say that I had to work myself up out of nowhere.</p>
-            <p class = "blog-quote-left">Until 2 years ago I didn’t use my computer for much more than the average person</p>
-            <p>So I started studying. First I resumed my work on these course in R and Python via <a class = 'link-in-article' href='https://www.datacamp.com/'>Datacamp<i class="fas fa-external-link-alt fa-xs"></i></a>. I learned about different file formats and states in which data can be found, about how to clean and manipulate data and eventually how to visualize data. After that I practised some of what I learned on a dataset with football events via <a class = 'link-in-article' href='https://www.kaggle.com/'>Kaggle<i class="fas fa-external-link-alt fa-xs"></i></a>. I also experimented with tools like Tableau and via DataCamp I followed a course to create my first decision tree on the famous Titanic dataset. Besides studying, I also shared my idea’s about a career switch with nearly everyone I talked to. This provided me with some valuable contacts. In January 2018 I could tag along with some colleague’s at data analytics team at the company where a friend of mine worked. One of the employees I spoke to there suggested that I share my story with companies I would want to work for. I wrote 4 letters which resulted into 3 invitations to come and discuss career opportunities. One of those was <a class = 'link-in-article' href='https://www.climber.eu/'>Climber<i class="fas fa-external-link-alt fa-xs"></i></a> Benelux. They found my enthusiasm so inspiring that they offered me an internship for 4 months. This would be 2 days a week besides my current job. I mainly learned to work with <a class = 'link-in-article' href='https://www.qlik.com/us'>Qlik<i class="fas fa-external-link-alt fa-xs"></i></a> Sense, one of the leading data visualization tools out there. Among other things, I created a dashboard to visualize the history of Formula 1. In September 2018 I started my first full-time job as a data professional at Climber.</p>
-            <p class = "blog-quote-right">Four letters resulted into three invitations to come and discuss career opportunities</p>
-            <p>Experiencing the data structures at large companies have really boosted my learning curve. I am grateful for the chances that Climber has given me. Besides my job as a BI consultant, I also still like to spend my spare time learning new things. In the past year I’ve learned to use Python to collect, transform and store data that comes from the world wide web through for example API’s. Recently I did a course on web development, resulting in this website. In the near future I want to start showing some more of my project online via Youtube. You can already find <a class = 'link-in-article' href='https://www.youtube.com/watch?v=ZlF8s9ouNJs'>my first video<i class="fas fa-external-link-alt fa-xs"></i></a> right here and there is defenitely more to come soon!</p>
-                    
-        </section>
+        <table class="table-personalia">
+            <tr>
+                <th class="personalia-header">Name: </th>
+                <td class="personalia-data">Simon van Meegdenburg</td>
+            </tr>
+            <tr>
+                <th class="personalia-header">DoB: </th>
+                <td class="personalia-data">01-04-1992</td>
+            </tr>
+            <tr>
+                <th class="personalia-header">Residence: </th>
+                <td class="personalia-data">Amsterdam, the Netherlands</td>
+            </tr>
+            <tr>
+                <th class="personalia-header">Nationality: </th>
+                <td class="personalia-data">Dutch</td>
+            </tr>
+            <tr>
+                <th class="personalia-header">Email: </th>
+                <td class="personalia-data">simonvm@live.nl</td>
+            </tr>
+        </table>
 
-        <div class="blog-navigation">
-            <span class="blog-prevnext-disabled">Previous &gt;&gt;</span>
-            <span class="blog-date">25-10-2019</span> 
-            <span class="blog-prevnext-disabled">Next &gt;&gt;</span>
-        </div>
-    </body>
+        <p class="subject">Core values:</p>
+        <p class="tags">Wisdom, Balance, Authenticity, Energy, Inspiration</p>
+
+        <p class="subject">General skills:</p>
+        <p class="tags">Socially skilled, Eagar to learn, Curious, Quickly adapt to changes, Logic and Analytics</p>
+
+        <p class="subject">Hobbies:</p>
+        <p class="tags">Personal growth, Learning, Programming, Data, Formula 1, Randomness, Socialize</p>
+
+        <p class="subject">Interests:</p>
+        <p class="tags">Programming, Web Development and all things data (-strategy, retrieval/capturing/creation of-,
+            -governance, -integration, -science)</p>
+
+        <p class="subject">(Programming) languages:</p>
+        <p class="tags">Dutch, English, Qlik, Python, R, SQL, Rest API's, ES6 JavaScript, NodeJS, React (JSX), HTML, CSS
+        </p>
+
+        <p class="subject">Tools:</p>
+        <p class="tags">Qlik Sense, Qlikview, Alteryx, Rest API's</p>
+        <br>
+    </aside>
+
+    <header>
+        <br>
+    </header>
+
+    <nav>
+        <a class="link" href="index.html"> Home </a>
+        <a class="link" href='work-experience.html'>Work experience</a>
+        <a class="link" href='knowledge.html'>Knowledge</a>
+        <a class="dropdown" href="#">
+            <button onClick="triggerDropdown()" class="dropbtn">Content</button>
+        </a>
+    </nav>
+
+    <div id="myDropdown" class="dropdown-content">
+
+        <a href="blog-carreerswitch.html">Career Switch</a>
+        <a href="project-loffline/1pilot.html">Project Loffline</a>
+        <a href="100-days-without/1pilot.html">100 Days Without Alcohol</a>
+    </div>
+
+    <div class="blog-navigation">
+        <span class="blog-prevnext-disabled">Previous &gt;&gt;</span>
+        <span class="blog-date">25-10-2019</span>
+        <span class="blog-prevnext-disabled">Next &gt;&gt;</span>
+    </div>
+
+    <section>
+        <h1>Career switch</h1>
+        <h6>The story of a social worker becoming a data professional</h6>
+
+        <p>Hi there! My name is Simon van Meegdenburg and I love to play with data. It doesn’t really matter to me what
+            kind of programming language I need to learn, if I think of something that I can program, I’ll just go for
+            it. I love writing scripts to bring some of my idea’s to life. It wasn’t until September 2017 though, that I
+            discovered the possibilities of programming. Up until then I didn’t use my computer for much more than the
+            average person that has one at home. All my live I've been fascinated by digits, statistics and analysing.
+            As a little boy I already analysed the standings of the Formula One World Championship to figure out how my
+            favourite driver should perform in order to win the title. Also I played this racing game where I had over
+            100 cars to choose from. I didn’t really care about mastering the game, more so I was interested in what car
+            performed the best when controlled by the computer. Since not all cars could compete in one race, I decided
+            to keep track of the results of multiple races with different participating AI’s in an excel sheet. I tried
+            to keep as many variables in consideration, best lap times, best times over multiple laps, consistency over
+            multiple races. I continuously figured out more advanced ways to analyse this and I didn’t hesitate to just
+            start over completely from the beginning when I found a better way. I could literally do this for hours,
+            even days.</p>
+        <p class="blog-quote-right">As a little boy I already analysed the standings of the Formula One</p>
+        <p>Despite this fascination for analysing stuff, it never really occurred to me to get a career in this area. I
+            actually never knew that programming with data was even a profession. When I heard about this in the middle
+            of 2017, I immediately realised that I should know more about this. I started searching on google and it
+            didn’t take long to find my first courses in R and Python. I immediately fell in love with programming. In
+            September of 2017 I made a life changing decision: I’ll become a data professional!</p>
+        <p>When you know my background before that moment, you’ll realize that this was to become quite a drastic step.
+            Up until that moment I was a social worker. I came across people with addictions to drugs and alcohol,
+            people with financial problems and people that experience problems raising their children. There’s no need
+            for a lot of knowledge about computers and programming in order to carry out that profession. You can pretty
+            much say that I had to work myself up out of nowhere.</p>
+        <p class="blog-quote-left">Until 2 years ago I didn’t use my computer for much more than the average person</p>
+        <p>So I started studying. First I resumed my work on these course in R and Python via <a class='link-in-article'
+                href='https://www.datacamp.com/'>Datacamp<i class="fas fa-external-link-alt fa-xs"></i></a>. I learned
+            about different file formats and states in which data can be found, about how to clean and manipulate data
+            and eventually how to visualize data. After that I practised some of what I learned on a dataset with
+            football events via <a class='link-in-article' href='https://www.kaggle.com/'>Kaggle<i
+                    class="fas fa-external-link-alt fa-xs"></i></a>. I also experimented with tools like Tableau and via
+            DataCamp I followed a course to create my first decision tree on the famous Titanic dataset. Besides
+            studying, I also shared my idea’s about a career switch with nearly everyone I talked to. This provided me
+            with some valuable contacts. In January 2018 I could tag along with some colleague’s at data analytics team
+            at the company where a friend of mine worked. One of the employees I spoke to there suggested that I share
+            my story with companies I would want to work for. I wrote 4 letters which resulted into 3 invitations to
+            come and discuss career opportunities. One of those was <a class='link-in-article'
+                href='https://www.climber.eu/'>Climber<i class="fas fa-external-link-alt fa-xs"></i></a> Benelux. They
+            found my enthusiasm so inspiring that they offered me an internship for 4 months. This would be 2 days a
+            week besides my current job. I mainly learned to work with <a class='link-in-article'
+                href='https://www.qlik.com/us'>Qlik<i class="fas fa-external-link-alt fa-xs"></i></a> Sense, one of the
+            leading data visualization tools out there. Among other things, I created a dashboard to visualize the
+            history of Formula 1. In September 2018 I started my first full-time job as a data professional at Climber.
+        </p>
+        <p class="blog-quote-right">Four letters resulted into three invitations to come and discuss career
+            opportunities</p>
+        <p>Experiencing the data structures at large companies have really boosted my learning curve. I am grateful for
+            the chances that Climber has given me. Besides my job as a BI consultant, I also still like to spend my
+            spare time learning new things. In the past year I’ve learned to use Python to collect, transform and store
+            data that comes from the world wide web through for example API’s. Recently I did a course on web
+            development, resulting in this website. In the near future I want to start showing some more of my project
+            online via Youtube. You can already find <a class='link-in-article'
+                href='https://www.youtube.com/watch?v=ZlF8s9ouNJs'>my first video<i
+                    class="fas fa-external-link-alt fa-xs"></i></a> right here and there is defenitely more to come
+            soon!</p>
+
+    </section>
+
+    <div class="blog-navigation">
+        <span class="blog-prevnext-disabled">Previous &gt;&gt;</span>
+        <span class="blog-date">25-10-2019</span>
+        <span class="blog-prevnext-disabled">Next &gt;&gt;</span>
+    </div>
+</body>
 
 </html>

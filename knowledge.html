@@ -1,329 +1,575 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Knowledge | Simon van Meegdenburg</title>
-		<meta name="description" content="HTML5">
-        <meta name="author" content="Simon van Meegdenburg">
-        <link rel = "stylesheet" href = "css/dropdown.css">
-        <link rel = "stylesheet" href = "css/main.css">
-        <link rel = "shortcut icon" href="images/paperplane.png">
-        <script src="js/dropdown.js"></script>
-        <script src="https://kit.fontawesome.com/772f796bfb.js" crossorigin="anonymous"></script>
-	</head>
 
-	<body>
-        <aside>
+<head>
+    <meta charset="utf-8">
+    <title>Knowledge | Simon van Meegdenburg</title>
+    <meta name="description" content="HTML5">
+    <meta name="author" content="Simon van Meegdenburg">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/paperplane.png">
+    <script src="js/dropdown.js"></script>
+    <script src="https://kit.fontawesome.com/772f796bfb.js" crossorigin="anonymous"></script>
+</head>
 
-            <p><img id="simon" src="images/simon.jpg" alt="Picture of myself"></p>
-            
-            <div class = "social-media">
-                <a href = "https://www.linkedin.com/in/simon-v-13833a131/?originalSubdomain=nl"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href = "https://www.youtube.com/channel/UCDePXa6pFYUt0-UG1QczIyg/featured?view_as=subscriber"><i class="fab fa-youtube fa-2x"></i></a>
-            </div>
+<body>
+    <aside>
 
-            <p class = "subject">Personalia:</p>
+        <p><img id="simon" src="images/simon.jpg" alt="Picture of myself"></p>
 
-            <table class="table-personalia">
-                <tr><th class="personalia-header">Name: </th>         <td class="personalia-data">Simon van Meegdenburg</td> </tr>
-                <tr><th class="personalia-header">DoB: </th>          <td class="personalia-data">01-04-1992</td> </tr>
-                <tr><th class="personalia-header">Residence: </th>    <td class="personalia-data">Hengelo, the Netherlands</td> </tr>
-                <tr><th class="personalia-header">Nationality: </th>  <td class="personalia-data">Dutch</td> </tr>
-                <tr><th class="personalia-header">Email: </th>        <td class="personalia-data">simonvm@live.nl</td> </tr>
-            </table>
-
-            <p class = "subject">Core values:</p>
-            <p class = "tags">Wisdom, Balance, Authenticity, Energy, Inspiration</p>
-
-            <p class = "subject">General skills:</p>
-            <p class = "tags">Socially skilled, Eagar to learn, Curious, Quickly adapt to changes, Logic and Analytics</p>
-            
-            <p class = "subject">Hobbies:</p>
-            <p class = "tags">Personal growth, Learning, Programming, Data, Formula 1, Randomness, Spending time with my partner and friends</p>
-
-            <p class = "subject">Interests:</p>
-            <p class = "tags">Artificial intelligence, Machine learning, Game development, Data Science, Creating, retrieving and combining data</p>
-
-            <p class = "subject">(Programming) languages:</p>
-            <p class = "tags">Dutch, English, Qlik, Python, R, SQL, Rest API's, HTML, CSS</p>
-
-        </aside>
-        
-        <header>
-            <br>
-        </header>
-        
-        <nav>
-            <a class="link" href = "index.html"> Home </a>
-            <a class="link" href = 'work-experience.html'>Work experience</a>
-            <a class="link" href = 'knowledge.html'>Knowledge</a>
-            <a class="dropdown" href="#">
-                <button onClick="triggerDropdown()" class="dropbtn">Content</button>
-            </a>
-        </nav>
-
-        <div id="myDropdown" class="dropdown-content">
-            
-            <a href="blog-carreerswitch.html">Career Switch</a>
-            <a href="youtube-dataninjanl/1pilot.html">Simon on Youtube</a>
-            <a href="project-loffline/1pilot.html">Project Loffline</a>
-            <a href="100-days-without/1pilot.html">100 Days Without Alcohol</a>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/simon-v-13833a131/?originalSubdomain=nl"><i
+                    class="fab fa-linkedin fa-2x"></i></a>
         </div>
 
-        <section>
-            <h1>Knowledge</h1>
+        <p class="quote">"Working with computers is like art, your only limit is your imagination"</p>
 
-            <p>On this page you will find information about my knowledge. Over the years I have acquired this knowledge in different ways. All my accomplishments are summed up right here.</p>            
+        <p class="subject">Personalia:</p>
 
-            <h2>Diplomas</h2>
-            <p>From age 16 to 24 I've completed two major studies. You find information about these below.</p>
+        <table class="table-personalia">
+            <tr>
+                <th class="personalia-header">Name: </th>
+                <td class="personalia-data">Simon van Meegdenburg</td>
+            </tr>
+            <tr>
+                <th class="personalia-header">DoB: </th>
+                <td class="personalia-data">01-04-1992</td>
+            </tr>
+            <tr>
+                <th class="personalia-header">Residence: </th>
+                <td class="personalia-data">Amsterdam, the Netherlands</td>
+            </tr>
+            <tr>
+                <th class="personalia-header">Nationality: </th>
+                <td class="personalia-data">Dutch</td>
+            </tr>
+            <tr>
+                <th class="personalia-header">Email: </th>
+                <td class="personalia-data">simonvm@live.nl</td>
+            </tr>
+        </table>
 
-            <table class = "diplomas">
-                <tr>
-                    <td class="table-title-la">Bachelor of Social Work</td>
-                </tr>
-                <tr>
-                    <th class="th-diplomas">Institute <a href="https://www.saxion.nl/"><i class="fas fa-external-link-alt" title="Go to website"></i></a></th>                                                                  
-                    <td class="td-diplomas"><a href="https://www.saxion.nl/"> Saxion Hogeschool Enschede</a></td>
-                </tr>
-                <tr>
-                    <th class="th-diplomas">Education level</th>
-                    <td class="td-diplomas">HBO</td>
-                </tr>                    
-                <tr>
-                    <th class="th-diplomas">Period</th>
-                    <td class="td-diplomas">2011 - 2016</td>
-                </tr>
-                <tr>
-                    <th class="th-diplomas">Completed</th>
-                    <td class="td-diplomas"><i class="fas fa-check"></i>
-                </tr>
-            </table>
-            <div class = "table-space"></div>
+        <p class="subject">Core values:</p>
+        <p class="tags">Wisdom, Balance, Authenticity, Energy, Inspiration</p>
 
-            <table class = "diplomas">
-                <tr>
-                    <td class="table-title-la">Business Administration</td>
-                </tr>
-                <tr>
-                    <th class="th-diplomas">Institute <a href="https://www.rocvantwente.nl/"><i class="fas fa-external-link-alt" title="Go to website"></i></a></th>                                      
-                    <td class="td-diplomas"><a href="https://www.rocvantwente.nl/">  ROC van Twente </a></td>
-                </tr>
-                <tr>
-                    <th class="th-diplomas">Education level</th>
-                    <td class="td-diplomas">MBO4</td>
-                </tr>                    
-                <tr>
-                    <th class="th-diplomas">Period</th>
-                    <td class="td-diplomas">2008 - 2011</td>
-                </tr>
-                <tr>
-                    <th class="th-diplomas">Completed</th>
-                    <td class="td-diplomas"><i class="fas fa-check"></i>
-                </tr>
-            </table>
-        </section>
-            
-        <section>
-            <h2>Certificates</h2>
-            <p>In september 2017 I decided to make a major change in direction for my carrier. Since that time I follow a lot of online courses to expend my knowlegde and skills on programming with data. If you want to know more about this <a class = 'link-in-article' href="blog-carreerswitch.html">career switch<i class="fas fa-external-link-alt fa-xs"></i></a>, you can read it in my blogpost.</p>
-                    
-            <table class = "certificates">
-                <tr>
-                    <td colspan = "3" class="table-title">Qlik</td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Qlik Sense Data Architect 2018</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="images/qlik-sense-da-2018.pdf"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="images/qlik-sense-da-2018.pdf">Dec. 2018</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Qlik Sense Business Analyst 2017</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="images/qlik-sense-ba-2017.pdf"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="images/qlik-sense-ba-2017.pdf">Jul. 2018</a></td>
-                </tr>
-            </table>
-            <div class = "table-space"></div>
+        <p class="subject">General skills:</p>
+        <p class="tags">Socially skilled, Eagar to learn, Curious, Quickly adapt to changes, Logic and Analytics</p>
 
-            <table class = "certificates"> 
-                <tr>
-                    <td colspan = "3" class="table-title">Coursera - Web Design for Everybody: Basics of Web Development & Coding Specialization</td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Advanced Styling with Responsive Design</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/2E2G34ZWLJE9"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/2E2G34ZWLJE9">Okt. 2019</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Interactivity with JavaScript</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/MJNJJGCPS3PR"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/MJNJJGCPS3PR">Okt. 2019</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Introduction to CSS3</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/KG4Z6PARN55S"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/KG4Z6PARN55S">Okt. 2019</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Introduction to HTML5</td>
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/XLQFX5H66VLM"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/XLQFX5H66VLM">Sept. 2019</a></td>
-                </tr>
-            </table>
-            <div class = "table-space"></div>
+        <p class="subject">Hobbies:</p>
+        <p class="tags">Personal growth, Learning, Programming, Data, Formula 1, Randomness, Socialize</p>
 
-            <table class = "certificates"> 
-                <tr>
-                    <td colspan = "3" class="table-title">Coursera - Python for Everybody Specialization</td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Using Databases with Python</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/ZGNJWX2LZL2A"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/ZGNJWX2LZL2A">Feb. 2019</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Using Python to Access Web Data</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/FTN9PJ7A4CV7"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/FTN9PJ7A4CV7">Feb. 2019</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Python Data Structures</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/TT565GMRQ9H9"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/TT565GMRQ9H9">Jan. 2019</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Getting Started with Python</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/RKSS5KBQLTM6"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/RKSS5KBQLTM6">Jan. 2019</a></td>
-                </tr>
-            </table>
-            <div class = "table-space"></div>
+        <p class="subject">Interests:</p>
+        <p class="tags">Programming, Web Development and all things data (-strategy, retrieval/capturing/creation of-,
+            -governance, -integration, -science)</p>
 
-            <table class = "certificates"> 
-                <tr>
-                    <td colspan = "3" class="table-title">Coursera - Big Data Specialization</td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Introduction to Big Data</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/GV44FUG34TY2"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.coursera.org/account/accomplishments/verify/GV44FUG34TY2">Apr. 2018</a></td>
-                </tr>
-            </table>
-            <div class = "table-space"></div>
+        <p class="subject">(Programming) languages:</p>
+        <p class="tags">Dutch, English, Qlik, Python, R, SQL, Rest API's, ES6 JavaScript, NodeJS, React (JSX), HTML, CSS
+        </p>
 
-            <table class = "certificates"> 
-                <tr>
-                    <td colspan = "3" class="table-title">DataCamp - Data Scientist with R</td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Data Visualisation with ggplot2 (part 1)</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/f5bf3a0cfbbde07e97c83f31f3e43900a5a29b40"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/f5bf3a0cfbbde07e97c83f31f3e43900a5a29b40">Jan. 2018</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Writing Functions in R</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/7e4085c93ec932e66551bb27d9995b69ec1b6c96"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/7e4085c93ec932e66551bb27d9995b69ec1b6c96">Dec. 2017</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Data Visualisation in R</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/e288b21d91e931572a2bdee76cf8d2c4268f263d"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/e288b21d91e931572a2bdee76cf8d2c4268f263d">Dec. 2017</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Joining Data in R with dplyr</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/ba54c91dea35c1614cbc77b1139d01b04a6b6b7c"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/ba54c91dea35c1614cbc77b1139d01b04a6b6b7c">Dec. 2017</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Data Manipulation in R with dplyr</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/77685720f61315aa0c8d8259d861330142a76702"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/77685720f61315aa0c8d8259d861330142a76702">Dec. 2017</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Cleaning Data in R</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/6dbc6e8da464c837462841fc424f053fd401fe02"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/6dbc6e8da464c837462841fc424f053fd401fe02">Oct. 2017</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Importing Data in R (part 2)</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/605214bfc123ebf72a2b454ac9b1618901b57c5a"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/605214bfc123ebf72a2b454ac9b1618901b57c5a">Oct. 2017</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Importing Data in R (part 1)</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/4823999b7add4a8c76861bcacc82fd70ee176ce3"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/4823999b7add4a8c76861bcacc82fd70ee176ce3">Oct. 2017</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Intermediate R Pratice</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/cdfb873b2f82574cfb5110a0aa7fe336c3f6615d"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/cdfb873b2f82574cfb5110a0aa7fe336c3f6615d">Oct. 2017</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Intermediate R</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/dfe15784701b2dd4cb4504fa01b2f2dc38ea294c"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/dfe15784701b2dd4cb4504fa01b2f2dc38ea294c">Oct. 2017</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Introduction to R</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/90e32aff4b126a75076d29c8d1496f3fc2780145"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/90e32aff4b126a75076d29c8d1496f3fc2780145">Oct. 2017</a></td>
-                </tr>
-            </table>
-            <div class = "table-space"></div>
+        <p class="subject">Tools:</p>
+        <p class="tags">Qlik Sense, Qlikview, Alteryx, Rest API's</p>
+        <br>
+    </aside>
 
-            <table class = "certificates"> 
-                <tr>
-                    <td colspan = "3" class="table-title">DataCamp - SQL Fundamentals</td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Joining Data in SQL</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/5bd61ba45596ab53903d35db1b0e0c76d54a03fc"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/5bd61ba45596ab53903d35db1b0e0c76d54a03fc">Oct. 2017</a></td>
-                </tr>
-                <tr class="certificate-row">
-                    <td class = "table-certificates-left">Intro to SQL for Data Science</td> 
-                    <td class = "table-certificates-middle" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/3fdc5aeaf845e43e618261a999cedeac92d816dd"><i class="fas fa-award fa-2x"></i></a></td> 
-                    <td class = "table-certificates-right" title="Show certificate"><a href="https://www.datacamp.com/statement-of-accomplishment/course/3fdc5aeaf845e43e618261a999cedeac92d816dd">Sept. 2017</a></td>
-                </tr>
-            </table>
-            <div class = "table-space"></div>
+    <header>
+        <br>
+    </header>
 
-        </section>
-                   
-        <section>
-            <h2>Literature</h2>
+    <nav>
+        <a class="link" href="index.html"> Home </a>
+        <a class="link" href='work-experience.html'>Work experience</a>
+        <a class="link" href='knowledge.html'>Knowledge</a>
+        <a class="dropdown" href="#">
+            <button onClick="triggerDropdown()" class="dropbtn">Content</button>
+        </a>
+    </nav>
 
-            <p>Especially during my last years as a student I spend quite some time on reading books about personal growth. Besides that I've been reading some books about data strategy. Any educational titles I've red can be found in the list below.</p>
+    <div id="myDropdown" class="dropdown-content">
 
-            <ul id="literaturelist">
-                <li class="literature">Armstrong, K. (2001). <span class="booktitle">Islam. Geschiedenis van een wereldgodsdienst.</span> Amsterdam: De Bezige Bij.</li>
-                <li class="literature">Aukes, A (2013). <span class="booktitle">Spirit en spruitjes.</span> Leeuwarden: Uitgeverij Elikser</li>
-                <li class="literature">Beek, van, D. (2016). <span class="booktitle">De intelligente organisatie</span> (5de editie). Den Bosch: Uitgeverij Tutein Nolthenius B.V.</li>
-                <li class="literature">Bregman, R (2014). <span class="booktitle">Gratis geld voor iedereen.</span> Zutphen: Druk Koninklijke Wöhrmann</li>
-                <li class="literature">Covey, S.R. (2015). <span class="booktitle">De zeven eigenschappen van effectief leiderschap.</span>Amsterdam: Uitgeverij Business Contact</li>
-                <li class="literature">Elst, van der, A. (2008). <span class="booktitle">Jonge denkers over grote religies - Christendom.</span> Kampen: Uitgeverij Ten Have</li>
-                <li class="literature">Frankl, V.E. (2015). <span class="booktitle">De zin van het bestaan.</span> Rotterdam: Uitgeversmaatschappij Ad. Donker bv</li>
-                <li class="literature">Freiberger, M., Thomas, R., & van Ginneken, C. (2017). <span class="booktitle">Wiskunde: 100 concepten.</span> Kerkdriel: Librero b.v.</li>
-                <li class="literature">Gunster, B (z.j.). <span class="booktitle">Omdenken is stom.</span> Amsterdam: A.W. Bruna Uitgevers.</li>
-                <li class="literature">Gunster, B. (2014). <span class="booktitle">Ja-maar wat als alles lukt.</span>Utrecht: A.W. Bruna Uitgevers B.V. </li>
-                <li class="literature">Gunster, B. (2015). <span class="booktitle">Huh?! De techniek van het omdenken.</span> Amsterdam: A.W. Uitgevers B.V. </li>
-                <li class="literature">Heuvel Rijnders, van den, J., & Brandt, E. (2017). <span class="booktitle">Terug naar de markt: boeddhisme in het dagelijks leven.</span> Waarbeke: Asoka.</li>
-                <li class="literature">Hiddink, T., & Serrurier Schepper, M. (2019).<span class="booktitle">Artificial Intelligence in actie</span> (1ste editie). Culemborg: van Duuren Management.</li>
-                <li class="literature">Hoff, B. (2009). <span class="booktitle">TAO van Poeh.</span> Den Haag: Sirius en Siderius. </li>
-                <li class="literature">Kock, de, D., & Vergeer, A. (2012). <span class="booktitle">365 Dagen Succesvol - Jouw beste schrikkeljaar ooit start nu.</span> Houten - Antwerpen: Uitgeverij Unieboek | Het Spectrum bv.</li>
-                <li class="literature">Meester, F. (2008). <span class="booktitle">Jonge denkers over grote religies - Islam.</span> Kampen: Uitgeverij Ten Have</li>
-                <li class="literature">Meester, M. (2008). <span class="booktitle">Jonge denkers over grote religies - Nieuwe Spiritualiteit.</span>Kampen: Uitgeverij Ten Have</li>
-                <li class="literature">Olpin, M. & Bracken, S. (2015). <span class="booktitle">Mindfulness met Covey. 7 gewoonten voor een stressvrij leven.</span>Amsterdam: Uitgeverij Business Contact</li>
-                <li class="literature">Swaab, D (2012). <span class="booktitle">Wij zijn ons brein.</span> Amsterdam: Uitgeverij Atlas Contact</li>
-                <li class="literature">Thich Nhat Hanh (2015). <span class="booktitle">Adem in, adem uit. Meditaties voor een druk bestaan.</span>Kampen: Uitgeverij Ten Have. </li>
-                <li class="literature">Thich Nhat Hanh (2013). <span class="booktitle">Het wonder van mindfulness.</span> Kampen: Uitgeverij Ten Have. </li>
-            </ul>
-        
-        </section>
-    </body>
+        <a href="blog-carreerswitch.html">Career Switch</a>
+        <a href="project-loffline/1pilot.html">Project Loffline</a>
+        <a href="100-days-without/1pilot.html">100 Days Without Alcohol</a>
+    </div>
+
+    <section>
+        <h1>Knowledge</h1>
+
+        <p>On this page you will find information about my knowledge. Over the years I have acquired this knowledge in
+            different ways. All my accomplishments are summed up right here.</p>
+
+        <h2>Diplomas</h2>
+        <p>From age 16 to 24 I've completed two major studies. You find information about these below.</p>
+
+        <table class="diplomas">
+            <tr>
+                <td class="table-title-la">Bachelor of Social Work</td>
+            </tr>
+            <tr>
+                <th class="th-diplomas">Institute <a href="https://www.saxion.nl/"><i class="fas fa-external-link-alt"
+                            title="Go to website"></i></a></th>
+                <td class="td-diplomas"><a href="https://www.saxion.nl/"> Saxion Hogeschool Enschede</a></td>
+            </tr>
+            <tr>
+                <th class="th-diplomas">Education level</th>
+                <td class="td-diplomas">HBO</td>
+            </tr>
+            <tr>
+                <th class="th-diplomas">Period</th>
+                <td class="td-diplomas">2011 - 2016</td>
+            </tr>
+            <tr>
+                <th class="th-diplomas">Completed</th>
+                <td class="td-diplomas"><i class="fas fa-check"></i>
+            </tr>
+        </table>
+        <div class="table-space"></div>
+
+        <table class="diplomas">
+            <tr>
+                <td class="table-title-la">Business Administration</td>
+            </tr>
+            <tr>
+                <th class="th-diplomas">Institute <a href="https://www.rocvantwente.nl/"><i
+                            class="fas fa-external-link-alt" title="Go to website"></i></a></th>
+                <td class="td-diplomas"><a href="https://www.rocvantwente.nl/"> ROC van Twente </a></td>
+            </tr>
+            <tr>
+                <th class="th-diplomas">Education level</th>
+                <td class="td-diplomas">MBO4</td>
+            </tr>
+            <tr>
+                <th class="th-diplomas">Period</th>
+                <td class="td-diplomas">2008 - 2011</td>
+            </tr>
+            <tr>
+                <th class="th-diplomas">Completed</th>
+                <td class="td-diplomas"><i class="fas fa-check"></i>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Certificates</h2>
+        <p>In september 2017 I decided to make a major change in direction for my carrier. Since that time I follow a
+            lot of online courses to expend my knowlegde and skills on programming with data. If you want to know more
+            about this <a class='link-in-article' href="blog-carreerswitch.html">career switch<i
+                    class="fas fa-external-link-alt fa-xs"></i></a>, you can read it in my blogpost.</p>
+
+        <table class="certificates">
+            <tr>
+                <td colspan="3" class="table-title">Qlik</td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Qlik Sense Data Architect 2018</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="images/qlik-sense-da-2018.pdf"><i class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="images/qlik-sense-da-2018.pdf">Dec. 2018</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Qlik Sense Business Analyst 2017</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="images/qlik-sense-ba-2017.pdf"><i class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="images/qlik-sense-ba-2017.pdf">Jul. 2018</a></td>
+            </tr>
+        </table>
+        <div class="table-space"></div>
+
+        <table class="certificates">
+            <tr>
+                <td colspan="3" class="table-title">Udemy</td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left"><a href="https://www.rocvantwente.nl/">MERN Stack Front To Back:
+                        Full Stack React, Redux & Node.js<i class="fas fa-external-link-alt"
+                            title="Go to website"></i></a></td>
+                <td class="table-certificates-middle" title="Show certificate">
+                    <p class="table-completion-perc">95%</p>
+                </td>
+                <td class="table-certificates-right" title="Show certificate">Nov. 2020</td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left"><a
+                        href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2021 Web
+                        Development Bootcamp <i class="fas fa-external-link-alt" title="Go to website"></i></a></td>
+                <td class="table-certificates-middle" title="Show certificate">
+                    <p class="table-completion-perc">95%</p>
+                </td>
+                <td class="table-certificates-right" title="Show certificate">Okt. 2020</td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left"><a href="https://www.rocvantwente.nl/">The Complete Node.js
+                        Developer Course (3rd Edition) <i class="fas fa-external-link-alt"
+                            title="Go to website"></i></a></td>
+                <td class="table-certificates-middle" title="Show certificate">
+                    <p class="table-completion-perc">55%</p>
+                </td>
+                <td class="table-certificates-right" title="Show certificate">jun. 2020</td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left"><a href="https://www.rocvantwente.nl/">Python for Data Science and
+                        Machine Learning Bootcamp <i class="fas fa-external-link-alt" title="Go to website"></i></a>
+                </td>
+                <td class="table-certificates-middle" title="Show certificate">
+                    <p class="table-completion-perc">80%</p>
+                </td>
+                <td class="table-certificates-right" title="Show certificate">May. 2020</td>
+            </tr>
+        </table>
+        <div class="table-space"></div>
+
+        <table class="certificates">
+            <tr>
+                <td colspan="3" class="table-title">Coursera - Web Design for Everybody: Basics of Web Development &
+                    Coding Specialization</td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Advanced Styling with Responsive Design</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/2E2G34ZWLJE9"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/2E2G34ZWLJE9">Okt. 2019</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Interactivity with JavaScript</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/MJNJJGCPS3PR"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/MJNJJGCPS3PR">Okt. 2019</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Introduction to CSS3</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/KG4Z6PARN55S"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/KG4Z6PARN55S">Okt. 2019</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Introduction to HTML5</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/XLQFX5H66VLM"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/XLQFX5H66VLM">Sept. 2019</a></td>
+            </tr>
+        </table>
+        <div class="table-space"></div>
+
+        <table class="certificates">
+            <tr>
+                <td colspan="3" class="table-title">Coursera - Python for Everybody Specialization</td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Using Databases with Python</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/ZGNJWX2LZL2A"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/ZGNJWX2LZL2A">Feb. 2019</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Using Python to Access Web Data</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/FTN9PJ7A4CV7"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/FTN9PJ7A4CV7">Feb. 2019</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Python Data Structures</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/TT565GMRQ9H9"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/TT565GMRQ9H9">Jan. 2019</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Getting Started with Python</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/RKSS5KBQLTM6"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/RKSS5KBQLTM6">Jan. 2019</a></td>
+            </tr>
+        </table>
+        <div class="table-space"></div>
+
+        <table class="certificates">
+            <tr>
+                <td colspan="3" class="table-title">Coursera - Big Data Specialization</td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Introduction to Big Data</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/GV44FUG34TY2"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.coursera.org/account/accomplishments/verify/GV44FUG34TY2">Apr. 2018</a></td>
+            </tr>
+        </table>
+        <div class="table-space"></div>
+
+        <table class="certificates">
+            <tr>
+                <td colspan="3" class="table-title">DataCamp - Python</td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Working with the Class System in Python</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/e564c013a09ca094cb69ca090f11dbcc629ebd0a"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/e564c013a09ca094cb69ca090f11dbcc629ebd0a">Apr.
+                        2020</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Writing Efficient Code with pandas</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/fcdddbea1ccdafc9cc1169e5cb0b2581b70594f9"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/fcdddbea1ccdafc9cc1169e5cb0b2581b70594f9">Apr.
+                        2020</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Writing Functions in Python</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/6bf1570f72b07a4b19a93e11f8ee97ea5aaedf21"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/6bf1570f72b07a4b19a93e11f8ee97ea5aaedf21">Apr.
+                        2020</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Writing Efficient Python Code</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/761ad0b01c76ec8152c50b7a4ec04f9d9c6c240a"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/761ad0b01c76ec8152c50b7a4ec04f9d9c6c240a">Apr.
+                        2020</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Intermediate Python</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/0247b825491e4ee8dcc7407f627a89f75e620f92"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/0247b825491e4ee8dcc7407f627a89f75e620f92">May.
+                        2020</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Introduction to Python</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/039dbd352f9dc4dcb8c4d8260a429d718e2c3b47"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/039dbd352f9dc4dcb8c4d8260a429d718e2c3b47">Sep.
+                        2017</a></td>
+            </tr>
+        </table>
+        <div class="table-space"></div>
+
+        <table class="certificates">
+            <tr>
+                <td colspan="3" class="table-title">DataCamp - Data Scientist with R</td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Data Visualisation with ggplot2 (part 1)</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/f5bf3a0cfbbde07e97c83f31f3e43900a5a29b40"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/f5bf3a0cfbbde07e97c83f31f3e43900a5a29b40">Jan.
+                        2018</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Writing Functions in R</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/7e4085c93ec932e66551bb27d9995b69ec1b6c96"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/7e4085c93ec932e66551bb27d9995b69ec1b6c96">Dec.
+                        2017</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Data Visualisation in R</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/e288b21d91e931572a2bdee76cf8d2c4268f263d"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/e288b21d91e931572a2bdee76cf8d2c4268f263d">Dec.
+                        2017</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Joining Data in R with dplyr</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/ba54c91dea35c1614cbc77b1139d01b04a6b6b7c"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/ba54c91dea35c1614cbc77b1139d01b04a6b6b7c">Dec.
+                        2017</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Data Manipulation in R with dplyr</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/77685720f61315aa0c8d8259d861330142a76702"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/77685720f61315aa0c8d8259d861330142a76702">Dec.
+                        2017</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Cleaning Data in R</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/6dbc6e8da464c837462841fc424f053fd401fe02"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/6dbc6e8da464c837462841fc424f053fd401fe02">Oct.
+                        2017</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Importing Data in R (part 2)</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/605214bfc123ebf72a2b454ac9b1618901b57c5a"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/605214bfc123ebf72a2b454ac9b1618901b57c5a">Oct.
+                        2017</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Importing Data in R (part 1)</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/4823999b7add4a8c76861bcacc82fd70ee176ce3"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/4823999b7add4a8c76861bcacc82fd70ee176ce3">Oct.
+                        2017</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Intermediate R Pratice</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/cdfb873b2f82574cfb5110a0aa7fe336c3f6615d"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/cdfb873b2f82574cfb5110a0aa7fe336c3f6615d">Oct.
+                        2017</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Intermediate R</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/dfe15784701b2dd4cb4504fa01b2f2dc38ea294c"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/dfe15784701b2dd4cb4504fa01b2f2dc38ea294c">Oct.
+                        2017</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Introduction to R</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/90e32aff4b126a75076d29c8d1496f3fc2780145"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/90e32aff4b126a75076d29c8d1496f3fc2780145">Oct.
+                        2017</a></td>
+            </tr>
+        </table>
+        <div class="table-space"></div>
+
+        <table class="certificates">
+            <tr>
+                <td colspan="3" class="table-title">DataCamp - SQL Fundamentals</td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Joining Data in SQL</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/5bd61ba45596ab53903d35db1b0e0c76d54a03fc"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/5bd61ba45596ab53903d35db1b0e0c76d54a03fc">Oct.
+                        2017</a></td>
+            </tr>
+            <tr class="certificate-row">
+                <td class="table-certificates-left">Intro to SQL for Data Science</td>
+                <td class="table-certificates-middle" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/3fdc5aeaf845e43e618261a999cedeac92d816dd"><i
+                            class="fas fa-award fa-2x"></i></a></td>
+                <td class="table-certificates-right" title="Show certificate"><a
+                        href="https://www.datacamp.com/statement-of-accomplishment/course/3fdc5aeaf845e43e618261a999cedeac92d816dd">Sept.
+                        2017</a></td>
+            </tr>
+        </table>
+        <div class="table-space"></div>
+
+    </section>
+
+    <section>
+        <h2>Literature</h2>
+
+        <p>Especially during my last years as a student I spend quite some time on reading books about personal growth.
+            Besides that I've been reading some books about data strategy. Any educational titles I've red can be found
+            in the list below.</p>
+
+        <ul id="literaturelist">
+            <li class="literature">Armstrong, K. (2001). <span class="booktitle">Islam. Geschiedenis van een
+                    wereldgodsdienst.</span> Amsterdam: De Bezige Bij.</li>
+            <li class="literature">Aukes, A (2013). <span class="booktitle">Spirit en spruitjes.</span> Leeuwarden:
+                Uitgeverij Elikser</li>
+            <li class="literature">Beek, van, D. (2016). <span class="booktitle">De intelligente organisatie</span> (5de
+                editie). Den Bosch: Uitgeverij Tutein Nolthenius B.V.</li>
+            <li class="literature">Bregman, R (2014). <span class="booktitle">Gratis geld voor iedereen.</span> Zutphen:
+                Druk Koninklijke Wöhrmann</li>
+            <li class="literature">Bregman, R (2020). <span class="booktitle">De meeste mensen deugen.</span> Amsterdam:
+                de Correspondent</li>
+            <li class="literature">Cairo, A (2020). <span class="booktitle">How charts lie.</span> New York:
+                W.W. Norton and Company</li>
+            <li class="literature">Covey, S.R. (2015). <span class="booktitle">De zeven eigenschappen van effectief
+                    leiderschap.</span>Amsterdam: Uitgeverij Business Contact</li>
+            <li class="literature">Elst, van der, A. (2008). <span class="booktitle">Jonge denkers over grote religies -
+                    Christendom.</span> Kampen: Uitgeverij Ten Have</li>
+            <li class="literature">Frankl, V.E. (2015). <span class="booktitle">De zin van het bestaan.</span>
+                Rotterdam: Uitgeversmaatschappij Ad. Donker bv</li>
+            <li class="literature">Freiberger, M., Thomas, R., & van Ginneken, C. (2017). <span
+                    class="booktitle">Wiskunde: 100 concepten.</span> Kerkdriel: Librero b.v.</li>
+            <li class="literature">Geurtz, J. (2009). <span class="booktitle">Verslaafd aan liefde.</span> Antwerpen:
+                Veen Bosch & Keuning Uitgevers b.v.</li>
+            <li class="literature">Gunster, B (z.j.). <span class="booktitle">Omdenken is stom.</span> Amsterdam: A.W.
+                Bruna Uitgevers.</li>
+            <li class="literature">Gunster, B. (2014). <span class="booktitle">Ja-maar wat als alles
+                    lukt.</span>Utrecht: A.W. Bruna Uitgevers B.V. </li>
+            <li class="literature">Gunster, B. (2015). <span class="booktitle">Huh?! De techniek van het
+                    omdenken.</span> Amsterdam: A.W. Uitgevers B.V. </li>
+            <li class="literature">Heuvel Rijnders, van den, J., & Brandt, E. (2017). <span class="booktitle">Terug naar
+                    de markt: boeddhisme in het dagelijks leven.</span> Waarbeke: Asoka.</li>
+            <li class="literature">Hiddink, T., & Serrurier Schepper, M. (2019).<span class="booktitle">Artificial
+                    Intelligence in actie</span> (1ste editie). Culemborg: van Duuren Management.</li>
+            <li class="literature">Hoff, B. (2009). <span class="booktitle">TAO van Poeh.</span> Den Haag: Sirius en
+                Siderius. </li>
+            <li class="literature">Kock, de, D., & Vergeer, A. (2012). <span class="booktitle">365 Dagen Succesvol -
+                    Jouw beste schrikkeljaar ooit start nu.</span> Houten - Antwerpen: Uitgeverij Unieboek | Het
+                Spectrum bv.</li>
+            <li class="literature">Manson, M. (2016). <span class="booktitle">The subtle art of not giving a
+                    f*ck.</span> New York, NY: HarperOne</li>
+            <li class="literature">Meester, F. (2008). <span class="booktitle">Jonge denkers over grote religies -
+                    Islam.</span> Kampen: Uitgeverij Ten Have</li>
+            <li class="literature">Meester, M. (2008). <span class="booktitle">Jonge denkers over grote religies -
+                    Nieuwe Spiritualiteit.</span>Kampen: Uitgeverij Ten Have</li>
+            <li class="literature">Olpin, M. & Bracken, S. (2015). <span class="booktitle">Mindfulness met Covey. 7
+                    gewoonten voor een stressvrij leven.</span>Amsterdam: Uitgeverij Business Contact</li>
+            <li class="literature">Swaab, D (2012). <span class="booktitle">Wij zijn ons brein.</span> Amsterdam:
+                Uitgeverij Atlas Contact</li>
+            <li class="literature">Thich Nhat Hanh (2015). <span class="booktitle">Adem in, adem uit. Meditaties voor
+                    een druk bestaan.</span>Kampen: Uitgeverij Ten Have. </li>
+            <li class="literature">Thich Nhat Hanh (2013). <span class="booktitle">Het wonder van mindfulness.</span>
+                Kampen: Uitgeverij Ten Have. </li>
+        </ul>
+
+    </section>
+</body>
 
 </html>
-
-
