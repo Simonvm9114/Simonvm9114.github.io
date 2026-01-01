@@ -1,0 +1,264 @@
+/* ================================
+   ALGEMENE BODY & TYPOGRAFIE
+================================ */
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #2b2b2b;
+    background-image: url('images/gravel_texture.webp');
+    background-color: rgba(224, 224, 225, 0.5);
+    background-blend-mode: lighten;
+    background-repeat: repeat;
+    background-size: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+/* ================================
+   LINKS & ACCENTEN
+================================ */
+a {
+    color: #8b5e3c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5a3d27;
+}
+
+/* ================================
+   TITELS
+================================ */
+h1, h2, h3, h4, h5, h6 {
+    color: #8b5e3c;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+}
+
+/* Subkopjes */
+h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* ================================
+   PARAGRAFEN & SPACING
+================================ */
+p {
+    margin-bottom: 1.2rem;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+ul, ol {
+    margin-bottom: 1.2rem;
+    padding-left: 1.5rem;
+}
+
+/* ================================
+   HORIZONTALE LIJNEN
+================================ */
+hr {
+    border: none;
+    border-top: 1px solid #8b5e3c;
+    margin: 2rem 0;
+}
+
+/* ================================
+   NAVBAR / NAVIGATIE
+================================ */
+.navbar {
+    background-color: rgba(253, 246, 227, 0.95); /* lichte transparantie over je patroon */
+    border-bottom: 1px solid #d6c4a2;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.8rem;
+    color: #8b5e3c;
+}
+
+.navbar .btn {
+    background-color: #f5f0e6; /* lichte parchment-kleur */
+    color: #5a4635; /* donkerbruine tekstkleur */
+    border: 2px solid #5a4635; /* subtiele border passend bij de tekst */
+    border-radius: 5px; /* zacht afgeronde hoeken */
+    padding: 6px 14px;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; /* passend bij oude-geschrift look */
+    font-weight: bold;
+    text-transform: uppercase; /* optioneel: klassieke uitstraling */
+    transition: all 0.3s ease;
+}
+
+/* Hover / focus effect */
+.navbar .btn:hover,
+.navbar .btn:focus {
+    background-color: #e8dfc7; /* iets donkerder bij hover */
+    color: #3e2f23;
+    border-color: #3e2f23;
+    text-decoration: none;
+}
+
+/* ================================
+   TAB NAVIGATIE (CV) 
+================================ */
+.nav-tabs .nav-link {
+    font-family: 'Merriweather', serif;
+    color: #5a3d27;
+    border-bottom-color: #8b5e3c;
+    font-weight: 600;
+}
+
+.nav-tabs .nav-link.active {
+    color: #8b5e3c;
+    border-color: #8b5e3c;
+    border-bottom-color: transparent;
+    background-color: rgba(224, 224, 225, 1);
+}
+
+.tab-content {
+    margin-top: 1.5rem;
+    border: 1px solid #8b5e3c;
+    border-top: 0;
+}
+
+/* ===========================================
+   E-MAIL BUTTON (oude-geschrift stijl)
+=========================================== */
+
+.btn-primary {
+    background-color: #5a4635;            /* parchment kleur */
+    color: #f5f0e6;                       /* donkerbruine inkt */
+    border: 2px solid #f5f0e6;            /* klassieke ink-border */
+    font-family: 'Merriweather', serif;   /* serif voor klassieke vibe */
+    padding: 10px 18px;                   /* iets meer ademruimte */
+    border-radius: 6px;                   /* zachte hoeken */
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;            /* optioneel, geeft autoriteit */
+    box-shadow: 2px 2px 4px rgba(120, 100, 80, 0.15); /* subtiele schaduw */
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #3e2f23;            /* iets donkerder parchment */
+    color: #e8dfc7;                       /* donkerder inkt */
+    border-color: #e8dfc7;
+    box-shadow: 3px 3px 6px rgba(120, 90, 60, 0.25);
+    text-decoration: none;
+}
+
+/* ================================
+   CARD / BOX STYLING
+================================ */
+.card {
+    background-color: rgba(253, 246, 227, 0.95); /* lichte transparantie voor textuurzicht */
+    border: 1px solid #d6c4a2;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ================================
+   LIST ITEMS / DATA POINTS
+================================ */
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* ============================================
+   GEÏNTEGREERDE PROFIELFOTO — OUD MANUSCRIPT STIJL
+   ============================================ */
+
+.profile-photo-integrated {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;  /* Ronde foto */
+    float: right;        /* Tekst wrapt links eromheen */
+    margin: 0 0 20px 30px; /* Ruimte tussen foto en tekst */
+
+    /* Oud manuscript stijl */
+    border: 4px solid rgba(139, 94, 60, 0.5);        /* Warm bruin */
+    box-shadow: 
+        0 0 0 6px rgba(255, 248, 235, 0.6),          /* licht papyrus ‘glow’ */
+        0 4px 12px rgba(0, 0, 0, 0.35);              /* subtiele diepte */
+    
+    background: rgba(255, 255, 245, 0.65);           /* zacht, papierachtig */
+    backdrop-filter: blur(1px);                      /* lichte glasstructuur */
+}
+
+/* ============================================
+TABEL STYLING — OUD MANUSCRIPT STIJL
+============================================ */
+.manuscript-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Merriweather", serif;
+    background: rgba(245, 245, 245, 0.85); /* licht grijsgedegradeerd, subtiel */
+    color: #2b2b2b; /* consistent met body */
+    font-size: 0.95rem;
+}
+
+.manuscript-table th,
+.manuscript-table td {
+    border: 1px solid rgba(90, 90, 90, 0.25); /* verweerd grijs */
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.manuscript-table th {
+    background: rgba(230, 230, 230, 0.75); /* iets donkerder grijs */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* ================================
+   RESPONSIVE ADJUSTMENTS
+================================ */
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .profile-photo-integrated {
+        float: none;                 /* Stop wrapping */
+        display: block;
+        margin: 0 auto 20px auto;    /* Centreer */
+        width: 150px;
+        height: 150px;
+    }
+}
