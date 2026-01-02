@@ -167,6 +167,13 @@ hr {
     text-decoration: none;
 }
 
+.custom-btn i {
+    margin-right: 6px;
+    font-size: 1.1em;
+    color: inherit; /* icoon krijgt dezelfde kleur als de tekst */
+    opacity: 0.85;  /* subtiel verweerd effect */
+}
+
 /* ================================
    CARD / BOX STYLING
 ================================ */
