@@ -167,11 +167,21 @@ hr {
     text-decoration: none;
 }
 
-.custom-btn i {
-    margin-right: 6px;
+.custom-btn {
     font-size: 1.1em;
+}
+
+.custom-btn i {
     color: inherit; /* icoon krijgt dezelfde kleur als de tekst */
     opacity: 0.85;  /* subtiel verweerd effect */
+}
+
+.lang-flag {
+  width: 28px;
+  height: auto;
+  border-radius: 3px;
+  border: 1px solid rgba(60, 50, 40, 0.4);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.25);
 }
 
 /* ================================
@@ -269,3 +279,30 @@ TABEL STYLING — OUD MANUSCRIPT STIJL
         height: 150px;
     }
 }
+
+@media print {
+  /* Toon alle tabbladen open */
+  .tab-pane {
+    display: block !important;
+    opacity: 1 !important;
+    position: relative !important;
+    margin-top: 2rem;
+  }
+
+  .tab-content {
+    border: none !important;
+  }
+
+  /* Verberg navigatie, knoppen en footer bij printen */
+  .nav-tabs,
+  .custom-btn,
+  footer {
+    display: none !important;
+  }
+
+  /* Optioneel: zorg dat de container full-width gaat voor print */
+  .container {
+    max-width: 100% !important;
+  }
+}
+

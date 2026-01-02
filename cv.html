@@ -17,15 +17,25 @@
   </head>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top mb-4">
       <div class="container" style="max-width: 800px">
-        <a class="navbar-brand" href="/">Simon van Meegdenburg</a>
+        <div class="navbar-brand">Simon van Meegdenburg</div>
         <div>
-          <a href="index.html" class="btn btn-outline-primary custom-btn me-2">
+          <a href="index.html" class="btn btn-outline-primary custom-btn me-1">
             <i class="bi bi-book"></i> Verhaal
           </a>
-          <a href="cv.html" class="btn btn-outline-primary custom-btn">
+          <a href="cv.html" class="btn btn-outline-primary custom-btn me-1">
             <i class="bi bi-person-vcard"></i> CV
+          </a>
+          <a id="download-pdf" class="btn btn-outline-primary custom-btn me-1">
+            <i class="bi bi-file-earmark-pdf"></i>
+          </a>
+          <a href="en/cv.html" class="btn btn-outline-primary custom-btn">
+            <img
+              src="static/images/flag_uk.png"
+              class="lang-flag"
+              alt="English"
+            />
           </a>
         </div>
       </div>
@@ -450,4 +460,9 @@
       >
     </footer>
   </body>
+  <script>
+    document.getElementById("download-pdf").addEventListener("click", () => {
+      window.print();
+    });
+  </script>
 </html>
